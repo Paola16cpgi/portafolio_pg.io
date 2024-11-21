@@ -1,0 +1,378 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+h1,h2,h3{
+    font-family: "Archivo Black", sans-serif;
+}
+p{
+    font-family: "Poppins", sans-serif;
+}
+*{
+   
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+
+.navbar ul li a{
+    color: black;
+    font-size: 25px;
+    position: relative;
+    
+}
+
+.navbar ul li a::after{
+    width: 20%;
+    height: 2px;
+    color: red;
+    content: "";
+    position: absolute;
+    bottom: 2px;
+}
+header{
+    background-image: url("../img/Group\ 10.png");
+    max-width: 100%;
+    background-size: cover;
+    position: relative;
+    height: 100vh;
+   align-items: flex-end;
+   padding-bottom: 0;
+}
+
+header-home{
+    background-color: #6482AD;
+}
+header nav li.nav-item{
+    margin: 0 20px ;
+}
+
+#hero .iconos-redes :first-child{
+    margin-left: -50px;
+}
+
+#hero .iconos-redes{
+    font-size: 60px;
+    display: flex;
+    padding: 5px;
+    margin-left: 50px;
+    border-radius: 5px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-left: -200px;
+   
+}
+
+.foto-p img {
+    position: absolute;
+    bottom: 0;
+    margin-left: -120px; /* Ajusta este valor según donde quieras posicionar horizontalmente la imagen */
+    max-width: 500px; /* Control del ancho máximo */
+    height: auto; /* Mantiene la proporción *//* Limita la altura al 90% del contenedor */
+}
+
+
+
+
+#hero h2{
+    margin-top: 180px;
+    font-size: 54px;
+    color: aliceblue;
+    text-shadow: 10px black;
+}
+#hero h1{
+    margin-top: 30px;
+    font-size: 45px;
+    color: aliceblue;
+    text-shadow: 10px black;
+}
+
+#sobre-mi{
+    background-image: url("../img/Group\ 6.png");
+}
+
+#sobre-mi .resu img{
+    width: 250px;
+    position: relative;
+    margin-top: 180px;
+
+}
+
+
+#sobre-mi h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+#sobre-mi p{
+   
+   
+    font-size: 25px;
+}
+
+.par{
+    background-color: #f0f0f0; /* Fondo gris claro, puedes cambiarlo a cualquier color */
+   padding: 50px;/* Añadir un poco de espacio alrededor del texto */
+   margin-left: 50px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    margin-top: 150px;
+    margin-bottom: 100px;
+    transition-duration: 4s;
+
+}
+
+#sobre-mi .par:hover{
+    background:rgba(180, 92, 158, 0.644);
+
+}
+#sobre-mi .par {
+    position: relative;
+  
+}
+
+#sobre-mi .par p{
+    z-index: 2;
+    position: relative;
+}
+#sobre-mi .par::before{
+    width: 100%;
+    height: 100%;
+    content: "";
+    top:-20px;
+    right: -20px;
+    background: transparent;
+    position:absolute;
+    border: 5px solid black;
+    z-index: 1;
+    
+}
+
+#sobre-mi button{
+    margin-top: 10px;
+    margin-left: 50px;
+    border-radius: 8px;
+    padding: 10px;
+    background: transparent;
+    border-color: transparent;
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 800;
+}
+
+#Habilidades{
+    background-image: url("../img/Group\ 7.png");
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+ 
+#Habilidades h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+#Habilidades .skill img{
+    margin-top: 150px;
+    margin-bottom: 70px;
+    position: relative;
+    width: 650px;
+}
+#Habilidades .ronda img{
+    margin-top: 270px;
+    bottom: 0;
+    position: absolute;
+    width: 500px; /* Control del ancho máximo */
+    height: auto
+}
+
+#carouselExampleIndicators {
+    margin: 100px auto; /* Márgenes arriba y abajo */
+    max-width: 80%; /* Ajusta el ancho máximo del carrusel */
+    border: 2px solid #ddd; /* Opcional: Agrega un borde para distinguir el carrusel */
+    border-radius: 10px; /* Bordes redondeados */
+    overflow: hidden; 
+    margin-bottom: 50px;/* Asegúrate de que no haya contenido que se desborde */
+}
+#Portafolio{
+    background-image: url("../img/Group\ 8\ \(1\).png");
+    background-size: cover;
+    position: relative;
+    max-width: 100%;
+    height: 1000px;
+    overflow: hidden;
+}
+
+#Portafolio h2{
+    position: relative;
+    font-size: 50px;
+    top:50px;
+    text-align: center;
+    color: aliceblue;
+}
+
+#Portafolio P{
+    position: relative;
+    top:70px;
+    text-align: center;
+    color: black;
+
+}
+
+/* Pantallas medianas (tabletas) */
+@media (max-width: 768px) {
+    /* Ajustes para el hero */
+    #hero {
+        height: auto; /* Deja que crezca según el contenido */
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    /* Imagen del perfil */
+    .foto-p img {
+        max-width: 300px;
+        height: auto;
+        margin-bottom: 20px; /* Separación entre la imagen y el texto */
+    }
+
+    /* Títulos */
+    #hero h2 {
+        font-size: 32px;
+        margin-top: 10px;
+    }
+
+    #hero h1 {
+        font-size: 28px;
+        margin-top: 10px;
+    }
+
+    /* Iconos de redes */
+    .iconos-redes {
+        font-size: 24px; /* Ajustar el tamaño de los iconos */
+        /* Centrar iconos y separar */
+    }
+    
+    .iconos-redes i {
+        margin: 0 10px; /* Espaciado entre iconos */
+    }
+
+    /* Barra de navegación */
+    .navbar {
+        flex-direction: column; /* Coloca los elementos en columna */
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0; /* Espaciado entre enlaces */
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+}
+
+/* Pantallas pequeñas (móviles) */
+@media (max-width: 576px) {
+    /* Ajustes para el hero */
+    #hero {
+        height: auto;
+        padding: 10px;
+        text-align: center;
+    }
+
+    /* Imagen del perfil */
+    .foto-p img {
+        max-width: 200px; /* Reduce aún más la imagen */
+        height: auto;
+        margin: 0 auto 15px auto; /* Centrar y separar la imagen */
+    }
+
+    /* Títulos */
+    #hero h2 {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+
+    #hero h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+
+    /* Iconos de redes */
+    .iconos-redes {
+        font-size: 20px;
+        margin-top: 10px;
+        margin: 10px auto;
+    }
+
+    .iconos-redes i {
+        margin: 0 8px;
+    }
+
+    /* Barra de navegación */
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 5px 0;
+    }
+
+    .navbar-toggler {
+        margin-bottom: 10px;
+    }
+
+
+    #Habilidades h2 {
+        font-size: 30px; /* Reduce el tamaño de la fuente */
+        top: 20px; /* Ajusta la posición del título */
+    }
+
+    #Habilidades .skill img {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        width: 90%; /* Ajusta el tamaño de la imagen */
+    }
+
+    #Habilidades .ronda img {
+        margin-top: 150px;
+        width: 300px; /* Ajusta el tamaño de la imagen */
+   }
+
+   #carouselExampleIndicators {
+    max-width: 95%; /* Carrusel más ancho en pantallas pequeñas */
+    margin: 50px auto; /* Menor margen */
+   }
+
+   #Portafolio {
+    padding: 20px 10px; /* Reducir padding en pantallas pequeñas */
+    }
+
+    #Portafolio h2 {
+    font-size: 2rem; /* Reducir tamaño del título */
+    }
+
+    #Portafolio p {
+    font-size: 0.9rem; /* Reducir tamaño del párrafo */
+}
+}
+
